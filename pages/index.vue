@@ -1,5 +1,7 @@
 <template>
-  <Tutorial />
+  <div>
+    index
+  </div>
 </template>
 
 <script lang="ts">
