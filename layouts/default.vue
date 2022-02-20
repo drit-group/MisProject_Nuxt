@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Nuxt />
+    <LayoutsNavbar/>
+    <Nuxt/>
+    <LayoutsFooter/>
   </div>
 </template>
 
@@ -9,7 +11,7 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: "DefaultLayout"
+  name: "DefaultLayout",
 })
 
 </script>
