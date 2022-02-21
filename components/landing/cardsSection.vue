@@ -3,7 +3,7 @@
     <b-col v-for="(card , index) in cards" :key="index">
       <b-card border-variant="0" bg-variant="transparent" align="center">
         <b-img width="66" :src="`images/landing/card${index+1}.png`"/>
-        <b-card-title class="my-4 text-danger h3">
+        <b-card-title class="my-4 text-primary h3">
           {{ card.title }}
         </b-card-title>
         <b-card-text>

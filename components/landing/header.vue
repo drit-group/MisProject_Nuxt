@@ -4,11 +4,11 @@
       <b-img src="images/landing/header.png" fluid/>
     </b-col>
     <b-col md="6" order-md="1">
-      <h2 class="dispaly-4 mb-4"> انجمن برنامه نویسان <span class="text-danger">دکتر آیتی </span></h2>
+      <h2 class="dispaly-4 mb-4"> انجمن برنامه نویسان <span class="text-primary">دکتر آیتی </span></h2>
       <p class="lead text-muted ">
         Lorem ipsum dolor sit amet consecteturequuntur! similique ut in hic ducimus error sint nostrum.
       </p>
-      <button class="btn btn-danger ">ورود</button>
+      <button class="btn btn-primary ">ورود</button>
     </b-col>
   </b-row>
 </template>
