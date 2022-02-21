@@ -8,7 +8,7 @@
       <p class="lead text-muted ">
         Lorem ipsum dolor sit amet consecteturequuntur! similique ut in hic ducimus error sint nostrum.
       </p>
-      <button class="btn btn-primary ">ورود</button>
+      <b-btn variant="primary">ورود</b-btn>
     </b-col>
   </b-row>
 </template>
