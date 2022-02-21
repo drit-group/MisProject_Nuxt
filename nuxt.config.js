@@ -39,6 +39,7 @@ export default {
     '@nuxtjs/pwa',
   ],
   bootstrapVue: {
+    icons: true,
     bootstrapCSS: false, // Or `css: false`
     bootstrapVueCSS: false // Or `bvCSS: false`
   },
