@@ -1,7 +1,7 @@
 <template>
   <div>
     <LayoutsNavbar/>
-    <Nuxt/>
+    <Nuxt id="Nuxt"/>
     <LayoutsFooter/>
   </div>
 </template>
@@ -15,3 +15,9 @@ export default Vue.extend({
 })
 
 </script>
+
+<style lang="scss">
+#Nuxt{
+  min-height: calc(100vh - 396.19px);
+}
+</style>
