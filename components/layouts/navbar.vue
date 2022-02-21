@@ -18,7 +18,7 @@
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
-          <b-btn variant="primary">ورود</b-btn>
+          <b-btn :to="{name:'auth-componentName' , params:{componentName : 'login'}}" variant="primary">ورود</b-btn>
         </b-navbar-nav>
       </b-collapse>
     </b-container>
