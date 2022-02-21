@@ -1,6 +1,26 @@
 <template>
   <div>
-    index
+    <section>
+      <b-container>
+
+        <LandingHeader/>
+
+      </b-container>
+    </section>
+    <section>
+      <b-container>
+
+        <LandingCardsSection/>
+
+      </b-container>
+    </section>
+    <section>
+      <b-container>
+
+        <LandingAboutUs/>
+
+      </b-container>
+    </section>
   </div>
 </template>
 
@@ -11,3 +31,4 @@ export default Vue.extend({
   name: 'IndexPage',
 })
 </script>
+
