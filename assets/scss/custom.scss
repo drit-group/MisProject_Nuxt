@@ -1,4 +1,6 @@
 // Custom Bootstrap variable overrides go first
+@import url('https://v1.fontapi.ir/css/SahelFD');
+
 $grid-breakpoints: (
   xs: 0,
   sm: 480px,
@@ -6,6 +8,8 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1300px
 );
+
+$font-family-sans-serif: 'Sahel FD', sans-serif;
 
 $primary: #e93558;
 // Then include the following
