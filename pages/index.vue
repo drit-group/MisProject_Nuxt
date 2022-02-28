@@ -1,27 +1,25 @@
 <template>
-  <div>
+  <main>
+
     <section>
       <b-container>
-
         <LandingHeader/>
-
       </b-container>
     </section>
+
     <section>
       <b-container>
-
         <LandingCardsSection/>
-
       </b-container>
     </section>
+
     <section>
       <b-container>
-
         <LandingAboutUs/>
-
       </b-container>
     </section>
-  </div>
+
+  </main>
 </template>
 
 <script lang="ts">
