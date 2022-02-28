@@ -1,5 +1,5 @@
 <template>
-  <b-row align-v="center">
+  <b-row align-v="center" class="mb-5">
     <b-col md="6">
       <b-img src="images/landing/aboutUs.png" fluid/>
     </b-col>
