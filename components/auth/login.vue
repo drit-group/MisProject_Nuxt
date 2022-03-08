@@ -1,5 +1,5 @@
 <template>
-  <div class="form-style m-2">
+  <div class="form-style">
     <h1>خوش آمدید</h1>
     <p class="w-100 pb-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان </p>
     <app-form :submit-form="submit">

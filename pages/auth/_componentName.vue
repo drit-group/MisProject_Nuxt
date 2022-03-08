@@ -1,10 +1,10 @@
 <template>
-  <b-row class="h-100-vh bg-light" align-v="center">
-    <b-col md="5" class="d-flex justify-content-center pt-5 align-items-center bg-white h-100-vh border-left overflow-auto">
+  <b-row class="bg-light" align-v="center">
+    <b-col md="5" class="d-flex justify-content-center py-5 align-items-center bg-white min-vh-100 border-left overflow-auto">
         <Componen1 :is="compName"/>
     </b-col>
 
-    <b-col md="7" class="d-none d-md-block">
+    <b-col md="7" class="d-none d-md-block position-fixed col-img-login">
       <b-img width="550" class="mx-auto d-block" src="/images/auth/login.png" fluid></b-img>
     </b-col>
   </b-row>
@@ -41,5 +41,10 @@ export default Vue.extend({
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+}
+.col-img-login{
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 </style>
